@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB Connected"))
+  .then(() => console.log("MongoDB C"))
   .catch(err => console.log(err));
 
 app.set("view engine", "ejs");
